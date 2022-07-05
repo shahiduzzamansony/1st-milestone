@@ -1,0 +1,26 @@
+h1 {
+    font-size: 60px;
+}
+
+.center-align {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 350px;
+    color: white;
+}
+
+.cover-section {
+    background-image: linear-gradient(to bottom, transparent, rgb(41, 37, 37)), url(donation4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+}
+
+.button-edit {
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 7px;
+}
