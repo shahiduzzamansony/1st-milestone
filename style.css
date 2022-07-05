@@ -1,5 +1,13 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 h1 {
     font-size: 60px;
+}
+
+h2 {
+    font-size: 50px;
 }
 
 .center-align {
@@ -13,14 +21,50 @@ h1 {
     background-image: linear-gradient(to bottom, transparent, rgb(41, 37, 37)), url(donation4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 750px;
+    height: 800px;
 }
 
 .button-edit {
     text-decoration: none;
     color: white;
     background-color: orangered;
-    padding: 10px 30px;
-    margin-top: 20px;
+    padding: 8px 25px;
     border-radius: 7px;
+}
+
+.center-align2 {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 20px;
+}
+
+.donate-amount {
+    display: flex;
+}
+
+.amount-display {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex: 150px;
+}
+
+.amount-section {
+    font-size: 40px;
+    color: rgb(172, 167, 167);
+    background-color: rgba(238, 234, 234, 0.315);
+    padding: 40px 20px;
+    border-radius: 7px;
+    margin: 30px;
+}
+
+.amount-section3 {
+    font-size: 40px;
+    color: rgb(250, 0, 0);
+    background-color: rgba(255, 182, 46, 0.333);
+    border: 2px solid orange;
+    padding: 40px 20px;
+    border-radius: 7px;
+    margin: 30px;
+
 }
