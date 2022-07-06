@@ -167,8 +167,9 @@ h3 {
     width: 55%;
     margin: auto;
     height: 200px;
-    background-color: rgba(240, 230, 140, 0.516);
-    margin-top: 90px;
+    background-color: rgba(240, 230, 140, 0.43);
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
 
 input.email {
