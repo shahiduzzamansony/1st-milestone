@@ -15,7 +15,7 @@ h3 {
     font-size: 27px;
 }
 
-.center-align {
+#center-align {
     font-size: 20px;
     text-align: center;
     padding-top: 350px;
@@ -85,8 +85,8 @@ input {
     color: lightgrey;
 }
 
-#donate-button {
-    padding-top: 40px;
+.button-padding {
+    padding-top: 30px;
 }
 
 #image-align {
@@ -146,6 +146,23 @@ input {
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 0;
+}
+
+.plan-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+
+}
+
+
+.half-width {
+    width: 50%;
+    padding: 6%;
+}
+
+.half-width img {
+    width: 90%;
 }
 
 footer {
