@@ -86,33 +86,59 @@ input {
 }
 
 
-.image-size {
-    height: 100px;
-    width: 80px;
+#image-size {
+    height: 73px;
+    width: 53px;
 }
 
-.icon-section {
-    display: flex;
-}
-
-#first-image {
-    background-color: skyblue;
-    padding: 20px 10px;
-}
-
-#second-image {
-    background-color: pink;
-    padding: 20px 10px;
-}
-
-#third-image {
-    background-color: oldlace;
-    padding: 20px 10px;
-}
 
 #image-align {
     display: flex;
     padding: 10px 20px;
     margin-left: 15px;
     margin-right: 15px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.flex-item1 {
+    padding: 50px;
+    background-color: rgba(216, 112, 147, 0.2);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    margin-left: 50px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+
+}
+
+.flex-item2 {
+    background-color: rgba(255, 166, 0, 0.2);
+    padding: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+}
+
+.flex-item3 {
+    background-color: rgba(137, 43, 226, 0.2);
+    padding: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 50px;
+    margin-left: 20px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
 }
