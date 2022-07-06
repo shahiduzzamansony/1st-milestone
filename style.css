@@ -178,7 +178,7 @@ input.email {
     padding-top: 17px;
     padding-bottom: 17px;
     padding-right: 60px;
-    padding-left: 15px;
+    padding-left: 18px;
     margin-top: 75px;
     border: none;
     border-top-left-radius: 10px;
@@ -193,6 +193,7 @@ input.email {
     border-bottom-right-radius: 10px;
     color: white;
     font-size: 20px;
+    font-weight: bold;
 }
 
 footer {
