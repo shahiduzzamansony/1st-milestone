@@ -11,6 +11,10 @@ h2 {
     font-size: 50px;
 }
 
+h3 {
+    font-size: 27px;
+}
+
 .center-align {
     font-size: 20px;
     text-align: center;
@@ -85,13 +89,6 @@ input {
     padding-top: 40px;
 }
 
-
-#image-size {
-    height: 73px;
-    width: 53px;
-}
-
-
 #image-align {
     display: flex;
     padding: 10px 20px;
@@ -104,11 +101,14 @@ input {
     justify-content: center;
     align-items: center;
     background-color: white;
+    text-align: justify;
 }
 
 .flex-item1 {
     padding: 50px;
     background-color: rgba(216, 112, 147, 0.2);
+    height: 250px;
+    width: 400px;
     margin-top: 40px;
     margin-bottom: 40px;
     margin-right: 20px;
@@ -121,6 +121,8 @@ input {
 
 .flex-item2 {
     background-color: rgba(255, 166, 0, 0.2);
+    height: 250px;
+    width: 400px;
     padding: 50px;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -133,6 +135,8 @@ input {
 
 .flex-item3 {
     background-color: rgba(137, 43, 226, 0.2);
+    height: 250px;
+    width: 400px;
     padding: 50px;
     margin-top: 40px;
     margin-bottom: 40px;
